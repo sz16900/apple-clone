@@ -145,12 +145,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   font-size: 9px;
-  color: #9FADBD;
+  color: #9fadbd;
 }
 
-/* Inserting this collapsed row between two flex items will make 
- * the flex item that comes after it break to a new row */
- .break {
+/* Inserting this collapsed row between two flex items will make
+the flex item that comes after it break to a new row */
+.break {
   flex-basis: 100%;
   height: 0;
 }
@@ -179,7 +179,7 @@ footer {
 }
 
 .usa-box {
-  border-right: none; 
+  border-right: none;
 }
 
 .usa {
@@ -187,5 +187,5 @@ footer {
 }
 
 .terms {
-  margin:19px 0;
+  margin: 19px 0;
 }
