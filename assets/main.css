@@ -21,7 +21,7 @@ a {
 
 .hero {
   height: 538px;
-  background: url(/images/your_verse_hero.jpg) no-repeat 0 -774px;
+  background: url(../images/your_verse_hero.jpg) no-repeat 0 -774px;
 }
 
 .navigator {
@@ -114,37 +114,45 @@ header {
   list-style: none;
   display: flex;
   height: 200px;
-  margin-top: -33px;
+  margin-top: 2px;
 }
 
 .promo1 {
   flex: 1 1 300px;
-  background: url(/images/promo_iphone5s.jpg) no-repeat center;
+  background: url(../images/promo_iphone5s.jpg) no-repeat center;
 }
 
 .promo2 {
   flex: 1 1 300px;
-  background: url(/images/promo_iphone5c.jpg) no-repeat center;
+  background: url(../images/promo_iphone5c.jpg) no-repeat center;
 }
 
 .promo3 {
   flex: 1 1 300px;
-  background: url(/images/promo_30_years.jpg) no-repeat center;
+  background: url(../images/promo_30_years.jpg) no-repeat center;
 }
 
 .promo4 {
   flex: 1 1 300px;
-  background: url(/images/promo_supplier_responsibility.jpg) no-repeat center;
+  background: url(../images/promo_supplier_responsibility.jpg) no-repeat center;
 }
 
 /* FOOTER */
 
 footer {
   width: 980px;
-  margin: 20px auto 30px auto;
+  margin: 20px auto 20px auto;
   display: flex;
   flex-wrap: wrap;
   font-size: 9px;
+  color: #9FADBD;
+}
+
+/* Inserting this collapsed row between two flex items will make 
+ * the flex item that comes after it break to a new row */
+ .break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 .copyright {
@@ -152,24 +160,32 @@ footer {
 }
 
 .shop-at {
-  flex-grow: 1;
-  align-self: flex-start;
+  flex: 1 1 auto;
+  align-self: end;
 }
 
 .shop-at a {
   color: #3088cc;
 }
 
-li:last-child {
-  border-right: none;
-}
-
 .li-links {
   display: inline;
   list-style: none;
   align-self: flex-end;
-  flex-grow: 1;
+  flex: 1 1 auto;
   border-right: 1px solid #ccc;
   padding: 0 3px 0 3px;
   color: #3088cc;
+}
+
+.usa-box {
+  border-right: none; 
+}
+
+.usa {
+  height: 12px;
+}
+
+.terms {
+  margin:19px 0;
 }
