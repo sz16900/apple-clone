@@ -1,0 +1,98 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    /* change this */
+    height: 100vh; 
+}
+
+.hero {
+    height: 538px;
+    background: url(/images/your_verse_hero.jpg) no-repeat 0 -774px;
+}
+
+.navigator {
+    width: 980px;
+    height: 36px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    list-style: none;
+    display: flex;
+    border-radius: 10px;
+}
+
+.item {
+    background: linear-gradient(#707070 50%, #868686 50%);
+    height: 36px;
+    width: 102.633px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    border-right: 1px #868686 solid;
+}
+
+.item1 {
+    border-radius: 5px 0 0 5px;
+}
+
+.item9 {
+    border-radius: 0 5px 5px 0;
+    flex-grow: 2;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    box-shadow: 1px 1px 4px 1px #555 inset;
+    border-radius: 10px 10px 10px 10px;
+    width: 132px;
+}
+
+
+
+header {
+    clear: both;
+    width: 980px;
+    height: 335px;
+    margin: 100px auto;
+}
+
+.title {
+    overflow: hidden;
+    height: 99px;
+}
+
+.video {
+    margin: 29px auto;
+    overflow: hidden;
+    height: 31px;
+}
+
+aside {
+    /* width: 100vh; */
+    border: 2px solid red;
+
+}
+
+.promo {
+    list-style: none;
+    /* width: 100%; */
+    display: flex;
+    /* height: 200px; */
+    background: red;
+    display: flex;
+}
+
+.item-promo {
+    flex: 1 1 300px;
+    /* flex-shrink: 2; */
+}
+
+
