@@ -13,15 +13,17 @@ a {
 /* CONTAINER */
 
 .container {
-  width: 1240px;
+  width: 100%;
   margin: 0 auto;
 }
 
 /* BANNER */
 
 .hero {
+  width: 100%;
   height: 538px;
-  background: url(../images/your_verse_hero.jpg) no-repeat 0 -774px;
+  background: url(../images/your_verse_hero.jpg) no-repeat center bottom;
+  background-size: cover;
 }
 
 .navigator {
@@ -115,6 +117,7 @@ header {
   display: flex;
   height: 200px;
   margin-top: 2px;
+  width: 100%;
 }
 
 .promo1 {
